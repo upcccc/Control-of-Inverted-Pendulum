@@ -5,7 +5,7 @@ Control of an inverted pendulum (cart-pole system) using modern control theory, 
 ## Program Components
 
 ### `Control of Inverted Pendulum.mlx`
-A MATLAB Live Script that serves as the main entry point for the project. It derives the system's state-space model, designs the state-feedback controller (e.g., pole placement or LQR), designs the state observer (Luenberger observer), and presents the simulation results with plots.
+A MATLAB Live Script that serves as the main entry point for the project. It derives the system's state-space model, designs the state-feedback controller (e.g., pole placement), designs the state observer (Luenberger observer), and presents the simulation results with plots.
 
 ### `cartpole_with_obsever.slx`
 A Simulink model of the cart-pole system. It implements the closed-loop control system including:
